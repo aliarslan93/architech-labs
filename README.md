@@ -63,13 +63,17 @@ $90 or more have free delivery.
 
     $basket = new Basket();
     $basket->add( 'PRODUCT_CODE' );
+    
 #Add Basket Example
+
     $basket = new Basket();
     $basket->add( 'R01' );
+    
 # Add Promotion 
     buy one red widget,get the second half price  
     PRODUCT_CODE
     $basket->addPromotion( 'PRODUCT_CODE', DISCOUNT_UNIT, DISCOUNT_PERCENT );
+
 # Promotion Example    
     //buy one red widget,get the second half price
     $basket->addPromotion( 'R01', 2, 50 );
