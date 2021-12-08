@@ -28,7 +28,8 @@
 To incentivise customers to spend more, delivery costs are reduced based on the amount 
 spent. Orders under $50 cost $4.95. For orders under $90, delivery costs $2.95. Orders of 
 $90 or more have free delivery.
-
+They are also experimenting with special offers. The initial offer will be “buy one red widget, 
+get the second half price”.
     define( 'PRODUCTS', array(
     	   'R01' => array(
     	   	    "code"  => "R01",
